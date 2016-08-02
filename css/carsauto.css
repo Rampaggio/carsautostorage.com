@@ -63,7 +63,7 @@ body {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 /* Side Menu */
@@ -175,6 +175,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #cc0000;
 }
 
 .service-item {
