@@ -184,6 +184,11 @@ hr.small {
     letter-spacing: 3px;
 }
 
+.services p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
 /* Callout */
 
 .callout {
