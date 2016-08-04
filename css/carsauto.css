@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Catamaran",Helvetica,Arial,sans-serif;
+    font-family: "Catamaran", sans-serif;
 }
 
 .text-vertical-center {
@@ -221,7 +221,38 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
+/* Rates */
+.rate-title {
+    font-family: "Domine", serif;
+}
+
+.rate-title > h3 {
+    font-size: 3em;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+}
+
+.rate-item {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.rate-item h3 {
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.rate-item h4 {
+    font-family: "Domine", serif;
+    font-size: 4em;
+    letter-spacing: 4px;
+}
+
+.rate-item p {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+}
 
 .call-to-action {
     padding: 50px 0;
