@@ -207,6 +207,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-image: url(../img/concrete_seamless.png);
 }
 
 .portfolio-item {
@@ -217,11 +218,11 @@ hr.small {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
 /* Rates */
+
+#rates {
+    background-image: url(../img/subtle_carbon.png);
+}
 .rate-title {
     font-family: "Domine", serif;
 }
@@ -229,29 +230,43 @@ hr.small {
 .rate-title > h3 {
     font-size: 3em;
     letter-spacing: 3px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    color: #fff;
 }
 
 .rate-item {
     font-family: "Catamaran", sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
+    color: #000;
 }
 
 .rate-item h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
+    color: #ccc;
 }
 
 .rate-item h4 {
     font-family: "Domine", serif;
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 4px;
+    padding-bottom: -10px;
+    color: #fff;
 }
 
 .rate-item p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     letter-spacing: 4px;
+    padding-bottom: 50px;
+    color: #ccc;
+}
+
+.rate-details p {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #fff;
 }
 
 .call-to-action {
@@ -264,8 +279,15 @@ hr.small {
 
 /* Map */
 
+#location {
+    margin-bottom: 50px;
+    background-image: url(../img/concrete_seamless.png);
+}
+
 .map {
     height: 500px;
+    border-bottom: 20px;
+    border-bottom-color: #990000;
 }
 
 @media(max-width:768px) {
@@ -282,6 +304,7 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-image: url(../img/concrete_seamless.png);
 }
 
 #to-top {
