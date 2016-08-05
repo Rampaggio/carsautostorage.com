@@ -277,6 +277,20 @@ hr.small {
     margin: 10px;
 }
 
+/* Policies */
+
+#policies {
+    background-image: url(../img/subtle_carbon.png);
+}
+
+.policy-details p {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
 /* Map */
 
 #location {
@@ -286,8 +300,6 @@ hr.small {
 
 .map {
     height: 500px;
-    border-bottom: 20px;
-    border-bottom-color: #990000;
 }
 
 @media(max-width:768px) {
